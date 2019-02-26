@@ -19,3 +19,4 @@ class StandardScale:
         for col in rnage(X.shape[1]):
             resX[:,col]=(X[:col]-self.mean_[col])/self.scale_[col]
         return resX
+      """加油"""
